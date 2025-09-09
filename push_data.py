@@ -6,7 +6,7 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 
-MONGO_DB_URL="mongodb+srv://ganesh:Admin8585@atlascluster.lgqwobv.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
+MONGO_DB_URL="mongodb+srv://user:<Password>@atlascluster.lgqwobv.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
 print(MONGO_DB_URL)
 
 import certifi
